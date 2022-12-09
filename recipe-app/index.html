@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="mobile-container">
+      <header>
+        <input type="text" />
+        <button id="search"><i class="fas fa-magnifying-glass"></i></button>
+      </header>
+      <div class="fav-container">
+        <h3>Favorite Meals</h3>
+        <ul class="fav-meals">
+          <li>
+            <img
+              src="https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/reserve/tHTHup3YTN6XsLwf43vY_IMG_8003.jpg"
+              alt=""
+            /><span>Lax</span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+              alt=""
+            /><span>Penne</span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg"
+              alt=""
+            /><span>Sushi</span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/media/meals/tnwy8m1628770384.jpg"
+              alt=""
+            /><span>Bean Stew</span>
+          </li>
+        </ul>
+      </div>
+      <div class="meals">
+        <div class="meal"></div>
+        <div class="meal-header">
+          <span class="random"> Random Recipe </span>
+          <img
+            src="https://www.themealdb.com/images/media/meals/tnwy8m1628770384.jpg"
+            alt="Bean Stew"
+          />
+        </div>
+        <div class="meal-body">
+          <h4>Veggie Veggies</h4>
+          <button class="fav-btn"><i class="fas fa-heart"></i></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
